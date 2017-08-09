@@ -12,6 +12,8 @@
 		E58449F91F3AEADB0082578E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58449F71F3AEADB0082578E /* Main.storyboard */; };
 		E58449FB1F3AEADB0082578E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58449FA1F3AEADB0082578E /* Assets.xcassets */; };
 		E58449FE1F3AEADB0082578E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58449FC1F3AEADB0082578E /* LaunchScreen.storyboard */; };
+		E5844A061F3AEB0D0082578E /* Subview.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5844A051F3AEB0D0082578E /* Subview.xib */; };
+		E5844A081F3AEB190082578E /* Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5844A071F3AEB190082578E /* Subview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E58449FA1F3AEADB0082578E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E58449FD1F3AEADB0082578E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E58449FF1F3AEADB0082578E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5844A051F3AEB0D0082578E /* Subview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Subview.xib; sourceTree = "<group>"; };
+		E5844A071F3AEB190082578E /* Subview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E58449FA1F3AEADB0082578E /* Assets.xcassets */,
 				E58449FC1F3AEADB0082578E /* LaunchScreen.storyboard */,
 				E58449FF1F3AEADB0082578E /* Info.plist */,
+				E5844A051F3AEB0D0082578E /* Subview.xib */,
+				E5844A071F3AEB190082578E /* Subview.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58449FE1F3AEADB0082578E /* LaunchScreen.storyboard in Resources */,
+				E5844A061F3AEB0D0082578E /* Subview.xib in Resources */,
 				E58449FB1F3AEADB0082578E /* Assets.xcassets in Resources */,
 				E58449F91F3AEADB0082578E /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5844A081F3AEB190082578E /* Subview.swift in Sources */,
 				E58449F61F3AEADB0082578E /* ViewController.swift in Sources */,
 				E58449F41F3AEADB0082578E /* AppDelegate.swift in Sources */,
 			);
